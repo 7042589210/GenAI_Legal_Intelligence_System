@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.vscode/
+vectorstore/
+tata_legal.db
+frontend/
+.git/
+.gitignore
+undo_reorganize.py
+undo_imports.py
+fix_imports.py
+reorganize_files.py

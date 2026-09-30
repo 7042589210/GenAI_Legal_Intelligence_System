@@ -1,0 +1,36 @@
+TITLE: Diversity, Equity, and Inclusion (DEI) Sourcing Standards
+CATEGORY: WORKFORCE & VENDORS
+REFERENCE_ID: POL-DEI-009
+JURISDICTION: Global
+GUIDANCE: Promote supplier diversity by actively onboarding minority-owned, women-owned, and socially inclusive vendor businesses.
+
+TITLE: Human Rights and Labor Standards Framework
+CATEGORY: WORKFORCE
+REFERENCE_ID: POL-HR-018
+JURISDICTION: Global
+GUIDANCE: Prohibit child labor, forced labor, discrimination, and unsafe working conditions across all internal facilities and vendor supply chains.
+
+TITLE: Termination for Convenience Clause Standard
+CATEGORY: TERMINATION & EXIT
+REFERENCE_ID: TERM-CON-102
+JURISDICTION: Global
+GUIDANCE: Contracts must grant Tata Group the unilateral right to terminate for convenience by providing a 30 to 60 days advance written notice without penalty.
+
+TITLE: Termination for Material Breach & Cure Period
+CATEGORY: TERMINATION & EXIT
+REFERENCE_ID: TERM-BRC-103
+JURISDICTION: Global
+GUIDANCE: Immediate termination is permitted upon an un-remedied material breach following a mandatory cure period ranging from 15 to 30 days.
+
+TITLE: Subcontracting Approval and Restriction Policy
+CATEGORY: VENDOR MANAGEMENT
+REFERENCE_ID: VEND-SUB-303
+JURISDICTION: Global
+GUIDANCE: Prohibit vendors from subcontracting any part of their contractual obligations without prior written consent from authorized Tata leadership.
+
+TITLE: Exit Management and Transition Assistance Protocol
+CATEGORY: TERMINATION & EXIT
+REFERENCE_ID: EXIT-TRN-115
+JURISDICTION: Global
+GUIDANCE: Obligate vendors to provide seamless data migration, knowledge transfer, and operational support for up to 90 days upon contract expiration.
+

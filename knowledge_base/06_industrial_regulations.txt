@@ -1,0 +1,138 @@
+TITLE: Group Information Security Policy (GISP)
+CATEGORY: CYBERSECURITY
+REFERENCE_ID: POL-SEC-002
+JURISDICTION: Global
+GUIDANCE: Implement mandatory information security baselines, network firewalls, multi-factor authentication, and asset protection protocols across all systems.
+
+TITLE: Enterprise Data Privacy and Governance Framework
+CATEGORY: DATA PRIVACY
+REFERENCE_ID: POL-PRIV-003
+JURISDICTION: India / Global
+GUIDANCE: Ensure compliant collection, processing, storage, and purging of personal data aligned with internal privacy standards and statutory data protection laws.
+
+TITLE: Third-Party Risk Management (TPRM) Protocol
+CATEGORY: RISK MANAGEMENT
+REFERENCE_ID: POL-TPRM-013
+JURISDICTION: Global
+GUIDANCE: Execute comprehensive due diligence, background screening, security vetting, and ongoing performance monitoring for all external vendors.
+
+TITLE: IT Infrastructure and Asset Usage Policy
+CATEGORY: IT & SECURITY
+REFERENCE_ID: POL-ITA-014
+JURISDICTION: Global
+GUIDANCE: Govern appropriate and secure utilization of corporate hardware, software licenses, cloud accounts, and internal communications infrastructure.
+
+TITLE: Generative AI and Tool Governance Policy
+CATEGORY: TECHNOLOGY & AI
+REFERENCE_ID: POL-GAI-015
+JURISDICTION: Global
+GUIDANCE: Regulate approved enterprise usage of external AI models, prompt security safeguards, and strict prevention of proprietary data leakage.
+
+TITLE: Business Continuity and Disaster Recovery Plan
+CATEGORY: OPERATIONS
+REFERENCE_ID: POL-BCDR-017
+JURISDICTION: Global
+GUIDANCE: Ensure organizational resilience, backup system readiness, and recovery protocols to maintain operations during major disruptions.
+
+TITLE: Record Retention and Document Archival Policy
+CATEGORY: LEGAL OPERATIONS
+REFERENCE_ID: POL-RET-019
+JURISDICTION: Global
+GUIDANCE: Define mandatory preservation periods, secure storage formats, and secure destruction protocols for all corporate legal records and files.
+
+TITLE: Official Travel and Expense Management Rules
+CATEGORY: FINANCIAL OPERATIONS
+REFERENCE_ID: POL-EXP-020
+JURISDICTION: Global
+GUIDANCE: Establish authorized spending limits, approved booking channels, and audit verification workflows for business travel expenses.
+
+TITLE: Social Media and Public Communications Policy
+CATEGORY: CORPORATE COMMUNICATIONS
+REFERENCE_ID: POL-SOC-021
+JURISDICTION: Global
+GUIDANCE: Restrict unauthorized public statements, media engagement, or posting of sensitive corporate information on public social media networks.
+
+TITLE: Brand Usage and Trademark Licensing Standards
+CATEGORY: BRAND MANAGEMENT
+REFERENCE_ID: POL-BRD-022
+JURISDICTION: Global
+GUIDANCE: Enforce strict brand protection guidelines governing the visual identity, trademarks, and corporate nomenclature of the Tata brand.
+
+TITLE: Intellectual Property Rights & Work Made for Hire
+CATEGORY: INTELLECTUAL PROPERTY
+REFERENCE_ID: IP-WNF-2026-04
+JURISDICTION: India / Global
+GUIDANCE: All custom code, software, documentation, and deliverables produced during vendor engagements must vest exclusively with Tata Group as work made for hire.
+
+TITLE: Commercial Payment Terms & Invoice Dispute Protocol
+CATEGORY: FINANCIAL & PAYMENT
+REFERENCE_ID: FIN-PAY-405
+JURISDICTION: India
+GUIDANCE: Enforce standard payment cycles of Net 45 or Net 60 days, incorporating tax handling rules and the right to withhold disputed invoice amounts.
+
+TITLE: Force Majeure Scope and Notification Requirements
+CATEGORY: RISK MANAGEMENT
+REFERENCE_ID: RSK-FM-206
+JURISDICTION: Global
+GUIDANCE: Clearly define force majeure events (acts of God, war, pandemics) and require written notice within 48 hours of occurrence to claim relief.
+
+TITLE: Mutual Non-Solicitation of Employees Standard
+CATEGORY: HUMAN RESOURCES
+REFERENCE_ID: HR-SOL-804
+JURISDICTION: India / Global
+GUIDANCE: Restrict both parties from directly or indirectly hiring each other's employees during the contract term and for 1 year post-termination.
+
+TITLE: Vendor Audit and Facility Inspection Rights
+CATEGORY: GOVERNING AUDIT
+REFERENCE_ID: AUD-INSP-909
+JURISDICTION: Global
+GUIDANCE: Grant Tata Group or its designated third-party auditors unconditional access to inspect vendor financial records, security systems, and operational facilities.
+
+TITLE: Mandatory Insurance Coverage Thresholds
+CATEGORY: RISK & INSURANCE
+REFERENCE_ID: INS-COV-602
+JURISDICTION: Global
+GUIDANCE: Require vendors to maintain specified minimum thresholds of Professional Liability, Cyber Liability, and Commercial General Insurance throughout the term.
+
+TITLE: Software Warranties and Uptime SLAs
+CATEGORY: PERFORMANCE & SERVICE
+REFERENCE_ID: PERF-SLA-410
+JURISDICTION: Global
+GUIDANCE: Enforce high operational standards including 99.9% uptime, bug-free software deliverables, and predefined financial remedies for performance failure.
+
+TITLE: Severability and Formal Waiver Documentation
+CATEGORY: GENERAL PROVISIONS
+REFERENCE_ID: GEN-SEV-555
+JURISDICTION: Global
+GUIDANCE: Ensure that invalidating one clause does not void the entire agreement, and require any waiver of rights to be explicitly documented in writing.
+
+TITLE: Contractual Assignment and Transfer Restrictions
+CATEGORY: GENERAL PROVISIONS
+REFERENCE_ID: GEN-ASG-442
+JURISDICTION: Global
+GUIDANCE: Prohibit assigning or transferring rights or duties under the agreement to any corporate affiliate or third party without prior written authorization.
+
+TITLE: Brand Usage and Publicity Restrictions
+CATEGORY: BRAND & MARKETING
+REFERENCE_ID: BRD-PRV-101
+JURISDICTION: Global
+GUIDANCE: Restrict vendors from using Tata logos, trademarks, trade names, or issuing press releases without prior explicit written consent from corporate communications.
+
+TITLE: Factories Act and Occupational Health & Safety (OH&S)
+CATEGORY: WORKPLACE SAFETY
+REFERENCE_ID: REG-FAC-008
+JURISDICTION: India
+GUIDANCE: Maintain mandatory workplace safety infrastructure, controlled working hours, proper ventilation, and employee welfare facilities.
+
+TITLE: Labor Codes and Minimum Wages Regulations
+CATEGORY: EMPLOYMENT LAW
+REFERENCE_ID: REG-LAB-009
+JURISDICTION: India
+GUIDANCE: Guarantee compliance with statutory minimum wages, provident fund (PF) contributions, gratuity, and employee insurance mandates.
+
+TITLE: National Cyber Security Policy Framework
+CATEGORY: CYBERSECURITY
+REFERENCE_ID: REG-NCSP-016
+JURISDICTION: India
+GUIDANCE: Implement critical information infrastructure protection standards and defensive architectures against state-sponsored or advanced cyber threats.
+

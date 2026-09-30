@@ -1,0 +1,13 @@
+﻿venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.vscode/
+tata_legal.db
+*.sqlite3
+.env
+undo_imports.py
+undo_reorganize.py

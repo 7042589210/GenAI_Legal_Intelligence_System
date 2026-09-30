@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: deployment/Dockerfile
+    container_name: tata_legal_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - DATABASE_URL=sqlite:///./tata_legal.db
+      - DB_CHROMA_PATH=vectorstore/db_chroma
+      - CORS_ORIGINS=${CORS_ORIGINS:-http://localhost:8501,http://localhost:3000}
+    volumes:
+      - ./backend:/app/backend
+      - vectorstore_data:/app/vectorstore
+      - sqlite_data:/app/tata_legal.db
+
+volumes:
+  vectorstore_data:
+  sqlite_data:

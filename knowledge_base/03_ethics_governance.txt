@@ -1,0 +1,66 @@
+TITLE: Tata Code of Conduct (TCoC) Enforcement
+CATEGORY: ETHICS & GOVERNANCE
+REFERENCE_ID: POL-TCOC-001
+JURISDICTION: Global
+GUIDANCE: Uphold core ethical values of integrity, responsibility, excellence, and transparency across all business operations and partner engagements.
+
+TITLE: Vendor Code of Conduct (VCoC)
+CATEGORY: VENDOR GOVERNANCE
+REFERENCE_ID: POL-VEND-004
+JURISDICTION: Global
+GUIDANCE: Mandate third-party adherence to ethical labor standards, environmental protection, safe working conditions, and anti-corruption practices.
+
+TITLE: Anti-Bribery and Anti-Corruption (ABAC) Policy
+CATEGORY: ETHICS & COMPLIANCE
+REFERENCE_ID: POL-ABAC-005
+JURISDICTION: Global
+GUIDANCE: Enforce zero tolerance for bribery, improper gifts, entertainment expenses, and facilitation payments across all commercial operations.
+
+TITLE: Conflict of Interest Disclosure Policy
+CATEGORY: GOVERNANCE
+REFERENCE_ID: POL-COI-006
+JURISDICTION: Global
+GUIDANCE: Require employees and business partners to promptly declare any personal, familial, or financial relationships that could compromise objective decision-making.
+
+TITLE: Related Party Transactions (RPT) Review Policy
+CATEGORY: FINANCIAL GOVERNANCE
+REFERENCE_ID: POL-RPT-007
+JURISDICTION: India
+GUIDANCE: Subject all transactions with group affiliates, subsidiaries, or promoters to rigorous audit committee oversight and prior regulatory approval.
+
+TITLE: Corporate Social Responsibility (CSR) Sourcing Guidelines
+CATEGORY: SUSTAINABILITY
+REFERENCE_ID: POL-CSR-008
+JURISDICTION: India
+GUIDANCE: Prioritize sustainable, community-impact driven sourcing practices and allocate procurement budgets to approved social enterprise initiatives.
+
+TITLE: Environmental, Social, and Governance (ESG) Procurement Policy
+CATEGORY: SUSTAINABILITY
+REFERENCE_ID: POL-ESG-010
+JURISDICTION: Global
+GUIDANCE: Evaluate suppliers based on carbon footprint reduction metrics, renewable energy usage, and transparent ESG reporting standards.
+
+TITLE: Whistleblower Protection and Reporting Policy
+CATEGORY: GOVERNANCE
+REFERENCE_ID: POL-WBL-012
+JURISDICTION: Global
+GUIDANCE: Maintain secure, confidential, and anonymous reporting channels for employees and vendors to flag fraud, misconduct, or policy violations.
+
+TITLE: Gift, Hospitality, and Entertainment Thresholds
+CATEGORY: ETHICS
+REFERENCE_ID: POL-GIFT-016
+JURISDICTION: Global
+GUIDANCE: Define strict monetary caps, registration mandates, and prior approval workflows for accepting or offering business gifts and entertainment.
+
+TITLE: Tata Enterprise Data Protection & NDA Standard
+CATEGORY: CONFIDENTIALITY & COMPLIANCE
+REFERENCE_ID: POL-IND-2026-01
+JURISDICTION: India / Global
+GUIDANCE: All third-party vendors must adhere strictly to Tata Group confidentiality standards, ensuring encryption at rest and in transit, with mandatory breach notification within 48 hours.
+
+TITLE: Prevention of Sexual Harassment (POSH) Mandate
+CATEGORY: WORKPLACE GOVERNANCE
+REFERENCE_ID: POSH-IND-012
+JURISDICTION: India
+GUIDANCE: Require vendor organizations working on Tata premises to maintain an active Internal Committee (IC) and enforce zero-tolerance harassment policies.
+
