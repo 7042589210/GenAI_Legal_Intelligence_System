@@ -17,8 +17,7 @@ pytesseract
 docx2txt
 pillow
 sqlalchemy
-langchain-groq
+langchain-openai
 langgraph
 pytest
 python-multipart
-

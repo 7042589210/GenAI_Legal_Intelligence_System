@@ -1,5 +1,5 @@
 from .settings import (
-    GROQ_API_KEY,
+    OPENROUTER_API_KEY,
     DB_CHROMA_PATH,
     TESSERACT_CMD,
     DATABASE_URL,
@@ -8,11 +8,11 @@ from .settings import (
     LLM_MODEL,
     LLM_SCAN_MODEL,
     LLM_REASONING_MODEL,
-    get_groq_api_key
+    get_openrouter_api_key
 )
 
 __all__ = [
-    "GROQ_API_KEY",
+    "OPENROUTER_API_KEY",
     "DB_CHROMA_PATH",
     "TESSERACT_CMD",
     "DATABASE_URL",
@@ -21,5 +21,5 @@ __all__ = [
     "LLM_MODEL",
     "LLM_SCAN_MODEL",
     "LLM_REASONING_MODEL",
-    "get_groq_api_key"
+    "get_openrouter_api_key"
 ]

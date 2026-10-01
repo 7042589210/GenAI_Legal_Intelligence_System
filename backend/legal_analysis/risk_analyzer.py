@@ -1,28 +1,29 @@
 import asyncio
 import random
 import logging
-from langchain_groq import ChatGroq
+from langchain_openai import ChatOpenAI
 from langchain_classic.chains import create_retrieval_chain
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 
-from backend.config.settings import get_groq_api_key, LLM_REASONING_MODEL, LLM_SCAN_MODEL
+from backend.config.settings import get_openrouter_api_key, LLM_REASONING_MODEL, LLM_SCAN_MODEL
 from backend.prompts.legal_prompts import get_risk_analysis_prompt
 from backend.retrieval.retriever import get_retriever
 
 logger = logging.getLogger(__name__)
 
-# SEMAPHORES: Cap simultaneous in-flight requests to Groq
+# SEMAPHORES: Cap simultaneous in-flight requests to OpenRouter
 REASONING_SEMAPHORE = asyncio.Semaphore(1)  # Strict limit for heavy 120b model
 SCAN_SEMAPHORE = asyncio.Semaphore(3)       # Broader limit for lightweight 27b model
 
 def load_risk_chain(model_name: str = LLM_REASONING_MODEL):
     """Builds and returns the RAG retrieval chain for legal risk analysis."""
-    api_key = get_groq_api_key()
+    api_key = get_openrouter_api_key()
 
-    llm = ChatGroq(
+    llm = ChatOpenAI(
         model=model_name,
         temperature=0.1,
         api_key=api_key,
+        openai_api_base="https://openrouter.ai/api/v1",
         max_retries=0 # Retries handled manually via exponential backoff below
     )
     
@@ -70,9 +71,9 @@ async def analyze_contract_risks_async(
                     if attempt < max_retries - 1:
                         # Exponential backoff with jitter
                         delay = (base_delay ** attempt) + random.uniform(0, 1)
-                        logger.warning(f"Groq Rate Limit Exceeded (429). Retrying in {delay:.2f}s...")
+                        logger.warning(f"OpenRouter Rate Limit Exceeded (429). Retrying in {delay:.2f}s...")
                         await asyncio.sleep(delay)
                     else:
-                        return "⚠️ **Rate Limit Exceeded:** Groq API quota reached. Please try again later.", []
+                        return "⚠️ **Rate Limit Exceeded:** OpenRouter API quota reached. Please try again later.", []
                 else:
                     return f"⚠️ **Error:** {str(e)}", []

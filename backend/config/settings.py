@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AQ.Ab8RN6J6UEZKDPdvvKsGmjOJqCl3_lROMV_0iNgXK0KmO5EcCw")
 
 # Vector Database Path
@@ -28,19 +28,19 @@ EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-base-en-v1.5")
 # BAAI/bge-small-en-v1.5 → 384
 EMBEDDING_DIMENSION = int(os.getenv("EMBEDDING_DIMENSION", "768"))
 
-# LLM Model Definitions (uses Groq API for generation)
-LLM_MODEL = os.getenv("LLM_MODEL", "llama3-70b-8192")
+# LLM Model Definitions (uses OpenRouter API for generation)
+LLM_MODEL = os.getenv("LLM_MODEL", "qwen/qwen3.8-27b")
 
 # Specialized LLM Model Definitions
-LLM_SCAN_MODEL = os.getenv("LLM_SCAN_MODEL", "llama3-70b-8192")
-LLM_REASONING_MODEL = os.getenv("LLM_REASONING_MODEL", "llama3-70b-8192")
+LLM_SCAN_MODEL = os.getenv("LLM_SCAN_MODEL", "qwen/qwen3.8-27b")
+LLM_REASONING_MODEL = os.getenv("LLM_REASONING_MODEL", "openai/gpt-oss-120b")
 
-def get_groq_api_key() -> str:
-    """Returns the Groq API key or raises a clear ValueError if missing."""
-    key = os.getenv("GROQ_API_KEY") or GROQ_API_KEY
+def get_openrouter_api_key() -> str:
+    """Returns the OpenRouter API key or raises a clear ValueError if missing."""
+    key = os.getenv("OPENROUTER_API_KEY") or OPENROUTER_API_KEY
     if not key:
         raise ValueError(
-            "GROQ_API_KEY is missing! Ensure your .env file exists in the project root "
-            "and contains GROQ_API_KEY=your_actual_key"
+            "OPENROUTER_API_KEY is missing! Ensure your .env file exists in the project root "
+            "and contains OPENROUTER_API_KEY=your_actual_key"
         )
     return key

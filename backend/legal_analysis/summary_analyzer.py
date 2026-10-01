@@ -1,16 +1,17 @@
-from langchain_groq import ChatGroq
-from backend.config.settings import get_groq_api_key, LLM_SCAN_MODEL
+from langchain_openai import ChatOpenAI
+from backend.config.settings import get_openrouter_api_key, LLM_SCAN_MODEL
 from backend.schemas.legal_schemas import DocumentSummaryResponse
 
 def analyze_document_summary(chunks: list) -> DocumentSummaryResponse:
-    """Extracts structured Pydantic Document Summary using Groq structured output. 
+    """Extracts structured Pydantic Document Summary using structured output. 
     Uses chunk metadata for citations."""
-    api_key = get_groq_api_key()
+    api_key = get_openrouter_api_key()
 
-    llm = ChatGroq(
+    llm = ChatOpenAI(
         model=LLM_SCAN_MODEL,
         temperature=0.1,
         api_key=api_key,
+        openai_api_base="https://openrouter.ai/api/v1",
         max_retries=2
     )
     structured_llm = llm.with_structured_output(DocumentSummaryResponse)
@@ -96,5 +97,5 @@ def analyze_document_summary(chunks: list) -> DocumentSummaryResponse:
         return response
     except Exception as e:
         if "RESOURCE_EXHAUSTED" in str(e) or "429" in str(e):
-            raise Exception("Rate Limit Exceeded: The Groq API quota has been reached. Please wait a few seconds and try again.")
+            raise Exception("Rate Limit Exceeded: The OpenRouter API quota has been reached. Please wait a few seconds and try again.")
         raise
